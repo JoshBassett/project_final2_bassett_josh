@@ -1,3 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E3E5D7;
+    font-family: "Halogen";
+    font-size: 14px;
+    color: #3D3231;
+}
+@font-face {
+    font-family: "seedy-motel";
+    src: url(font/seedy-motel.otf);
+}
+h1, h2, h3 {
+    font-family: "seedy-motel";
+    color: #3D3231;
+}
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p, ul, ol {
+    margin-top: 0;
+    line-height: 180%;
+}
+a {
+    color: #B57632;
+}
 header {
     background-color: #264653;
 }
