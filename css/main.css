@@ -119,3 +119,18 @@ footer p {
     margin: auto;
     font-size: small;
 }
+#content h2, #music h2 {
+    margin-bottom: -1%;
+}
+#history {
+    width: 80%;
+    margin: auto;
+}
+#bar-menu {
+    width: 80%;
+    margin: auto;
+}
+#bar-menu p {
+    font-size: 1em;
+
+}
