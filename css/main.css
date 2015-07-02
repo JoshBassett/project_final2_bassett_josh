@@ -72,10 +72,6 @@ nav a:hover, nav .current_page_item a {
     padding-right:10%;
     padding-top: 2%;
     margin: auto;
-    background-color: #E5B25D;
-    background-image: url(../img/tatooine-building-opq.png);
-    background-size: cover;
-    background-position: 50%;
 }
 #music img {
     margin: auto;
@@ -123,8 +119,20 @@ footer p {
     margin-bottom: -1%;
 }
 #history {
-    width: 80%;
     margin: auto;
+    background-color: #E5B25D;
+    background-image: url(../img/tatooine-building-opq.png);
+    background-size: cover;
+    background-position: 50%;
+
+}
+#history p, #history h2 {
+    margin:auto;
+    width: 80%;
+    padding-top: 2%
+}
+#history p {
+    padding-bottom: 2%;
 }
 #bar-menu {
     width: 80%;
