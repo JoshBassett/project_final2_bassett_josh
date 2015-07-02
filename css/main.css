@@ -4,6 +4,7 @@ body {
     background: #E3E5D7;
     font-family: "Halogen";
     color: #3D3231;
+    text-align: center;
 }
 @font-face {
     font-family: "seedy-motel";
@@ -70,4 +71,16 @@ nav a:hover, nav .current_page_item a {
     background-image: url(../img/tatooine-building-opq.png);
     background-size: cover;
     background-position: 50%;
+}
+#music img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+#music {
+    width: 80%;
+    margin: auto;
+}
+figcaption {
+    margin-top: 4%;
 }
