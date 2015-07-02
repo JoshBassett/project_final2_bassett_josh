@@ -105,3 +105,15 @@ figcaption {
 }
 .blasters {
 }
+footer {
+    background-color: #264653;
+    color: #E3E5D7;
+    font-family: "Halogen-Thin";
+    padding-top:4%;
+    padding-bottom: 2%;
+}
+footer p {
+    width: 80%;
+    margin: auto;
+    font-size: small;
+}
