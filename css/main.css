@@ -29,15 +29,12 @@ h3 {
     font-size: 1.5em;
     letter-spacing:.02em;
 }
-
-p, ul, ol {
-    margin-top: 0;
-}
 a {
     color: #B57632;
 }
 header {
     background-color: #264653;
+    padding-bottom: 8%;
 }
 #logo img{
     width:80%;
@@ -46,10 +43,13 @@ header {
 }
 
 nav ul {
-    margin: 0;
     padding: 0px 0px 0px 0px;
     list-style: none;
-    line-height: normal;
+}
+nav li {
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 2px 5px #3d3231;
 }
 nav a {
     display: block;
@@ -63,6 +63,8 @@ nav a {
 }
 nav a:hover, nav .current_page_item a {
     text-decoration: underline;
+    text-shadow: 0 0 0.2em #B57632, 0 0 0.2em #B57632,
+        0 0 0.2em #B57632}
 }
 #content {
     text-align: center;
