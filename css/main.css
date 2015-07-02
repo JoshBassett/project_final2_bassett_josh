@@ -76,6 +76,7 @@ nav a:hover, nav .current_page_item a {
     margin: auto;
     display: block;
     width: 100%;
+    box-shadow: 1px 2px 5px #3d3231;
 }
 #music {
     width: 80%;
@@ -83,4 +84,21 @@ nav a:hover, nav .current_page_item a {
 }
 figcaption {
     margin-top: 4%;
+}
+#rules {
+    width:;
+    margin: auto;
+    background-color: #B57632;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#rules img {
+    margin: auto;
+    display: block;
+    width: 60%;
+    box-shadow: 1px 2px 5px #3d3231;
+}
+.droids {
+}
+.blasters {
 }
