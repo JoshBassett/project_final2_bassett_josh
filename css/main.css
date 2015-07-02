@@ -115,7 +115,7 @@ footer p {
     margin: auto;
     font-size: small;
 }
-#content h2, #music h2 {
+#content h2 {
     margin-bottom: -1%;
 }
 #history {
@@ -137,8 +137,112 @@ footer p {
 #bar-menu {
     width: 80%;
     margin: auto;
+    margin-top: 4.5%;
 }
 #bar-menu p {
     font-size: 1em;
 
+}
+
+/* Media Queries */
+@media (min-width: 512px) {
+    #logo img{
+        width:50%;
+    }
+}
+@media (min-width: 576px) {
+    #bar-menu {
+        width:38%;
+        float: left;
+        margin-left:10%;
+    }
+    #music {
+        width:38%;
+        float:left;
+        margin-left:4%;
+        margin-top:4%
+    }
+    #rules {
+        clear:both;
+    }
+}
+/* Media Queries */
+@media (min-width: 512px) {
+    #logo img{
+        width:50%;
+    }
+}
+@media (min-width: 576px) {
+    #bar-menu {
+        width:38%;
+        float: left;
+        margin-left:10%;
+    }
+    #music {
+        width:38%;
+        float:left;
+        margin-left:4%;
+        margin-top:4%
+    }
+    #rules {
+        clear:both;
+    }
+}
+@media (min-width: 882px) {
+    #logo img{
+        float:left;
+        width:25%;
+        max-width:350px;
+        padding-left:10%;
+    }
+    nav{
+        padding-top: 1%;
+        padding-bottom:2%;
+    }
+    nav ul {
+        float:right;
+        display:inline;
+        padding-right:2%
+    }
+    nav li, nav a {
+        display:inline;
+        box-shadow: none;
+        padding-left:1%;
+    }
+    #content {
+        clear:both;
+        width: 80%;
+        margin:auto;
+        padding-top: 5%;
+        background-color: #E5B25D;
+        background-image: url(../img/tatooine-building-opq.png);
+        background-size: cover;
+        background-position: 50%;
+    }
+    #history {
+        background: none;
+    }
+     #bar-menu {
+        width:38%;
+        float: left;
+        margin-left:10%;
+    }
+    #music {
+        width:32%;
+        float:left;
+        margin-left:4%;
+        margin-top:4%;
+        background-color:#3D3231;
+    }
+    #music img {
+        width:80%;
+    }
+    .live {
+        color:#E5B25D;
+    }
+}
+@media (min-width: 1200px) {
+    #content, #rules{
+        max-width:960px;
+    }
 }
