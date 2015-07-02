@@ -15,20 +15,23 @@ h1, h2, h3 {
     color: #3D3231;
 }
 h1 {
-    font-size: 4em;
+    font-size: 3em;
+    letter-spacing:.02em;
+
 }
 
 h2 {
     font-size: 2em;
+    letter-spacing:.02em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.5em;
+    letter-spacing:.02em;
 }
 
 p, ul, ol {
     margin-top: 0;
-    line-height: 150%;
 }
 a {
     color: #B57632;
