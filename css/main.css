@@ -3,19 +3,18 @@ body {
     padding: 0;
     background: #E3E5D7;
     font-family: "Halogen";
-    font-size: 14px;
     color: #3D3231;
 }
 @font-face {
     font-family: "seedy-motel";
-    src: url(font/seedy-motel.otf);
+    src: url(../font/seedy-motel.otf);
 }
 h1, h2, h3 {
     font-family: "seedy-motel";
     color: #3D3231;
 }
 h1 {
-    font-size: 2.8em;
+    font-size: 4em;
 }
 
 h2 {
@@ -28,7 +27,7 @@ h3 {
 
 p, ul, ol {
     margin-top: 0;
-    line-height: 180%;
+    line-height: 150%;
 }
 a {
     color: #B57632;
@@ -41,9 +40,6 @@ header {
     display: block;
     margin: auto;
 }
-nav {
-    margin: auto;
-}
 
 nav ul {
     margin: 0;
@@ -53,7 +49,7 @@ nav ul {
 }
 nav a {
     display: block;
-    line-height: 300%;
+    padding: 1rem;
     text-decoration: none;
     text-align: center;
     font-family: 'Halogen';
@@ -63,4 +59,15 @@ nav a {
 }
 nav a:hover, nav .current_page_item a {
     text-decoration: underline;
+}
+#content {
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 2%;
+    margin: auto;
+    background-color: #E5B25D;
+    background-image: url(../img/tatooine-building-opq.png);
+    background-size: cover;
+    background-position: 50%;
 }
