@@ -76,6 +76,27 @@ nav a:hover, nav .current_page_item a {
 #content h2 {
     margin-top: 0%;
 }
+#menu-button {
+    background: #6f98b3;
+    background-image: -webkit-linear-gradient(top, #6f98b3, #264653);
+    background-image: -moz-linear-gradient(top, #6f98b3, #264653);
+    background-image: -ms-linear-gradient(top, #6f98b3, #264653);
+    background-image: -o-linear-gradient(top, #6f98b3, #264653);
+    background-image: linear-gradient(to bottom, #6f98b3, #264653);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px #666666;
+    border: solid #aeb8bf 1px;
+    padding: 4%;
+    margin-bottom: 10%
+}
+#menu-button a {
+    font-size: 1.5em;
+    font-family: "Halogen-Thin";
+    color: #E3E5D7;
+    text-decoration: none;
+}
 #music img {
     margin: auto;
     display: block;
@@ -143,9 +164,12 @@ footer p {
     margin: auto;
     margin-top: 4.5%;
 }
-#bar-menu p {
+.drinks p {
     font-size: 1em;
-
+}
+#bar-menu ul {
+    list-style: none;
+    padding: inherit;
 }
 .visuallyhidden {
     border: 0;
@@ -157,9 +181,6 @@ footer p {
     position: absolute;
     width: 1px;
 }
-#schedule {
-
-}
 .band {
     font-weight: 600;
     font-size: larger;
@@ -170,12 +191,23 @@ footer p {
     #logo img{
         width:50%;
     }
+    #menu-button {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
 }
 @media (min-width: 576px) {
     #bar-menu {
         width:38%;
         float: left;
         margin-left:10%;
+    }
+    #bar-menu li {
+        padding-top: 3%;
+    }
+    #menu-button {
+        width: 75%;
     }
     #music {
         width:38%;
@@ -227,6 +259,12 @@ footer p {
     }
     #bar-menu h2 {
         margin-top: 11%;
+    }
+    #bar-menu ul {
+        font-size: 1.4em;
+    }
+    #bar-menu li {
+        padding-top: 1%;
     }
     #music {
         width:60%;
