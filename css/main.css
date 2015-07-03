@@ -87,21 +87,21 @@ figcaption {
     margin-top: 4%;
 }
 #rules {
-    width:;
     margin: auto;
-    background-color: #B57632;
     padding-top: 5%;
     padding-bottom: 5%;
 }
-#rules img {
-    margin: auto;
-    display: block;
+#rule-img-wrap {
+    max-width: 500px;
+}
+#rule-text {
+    width: 80%;
+}
+#rule-droid img {
     width: 60%;
-    box-shadow: 1px 2px 5px #3d3231;
 }
-.droids {
-}
-.blasters {
+#rule-blaster img {
+    width: 60%;
 }
 footer {
     background-color: #264653;
@@ -142,6 +142,16 @@ footer p {
 #bar-menu p {
     font-size: 1em;
 
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 /* Media Queries */
@@ -217,9 +227,40 @@ footer p {
     .live {
         color:#E5B25D;
     }
+        #rule-img-wrap {
+        /* padding-left: 20%; */
+    }
 }
 @media (min-width: 1200px) {
     #content, #rules {
         max-width:960px;
+    }
+}
+@media (min-width: 652px) {
+    #rule-text {
+        max-width:500px;
+    }
+    #rule-blaster, #rule-droid {
+        max-width: 240px;
+    }
+    #rule-droid {
+        float: left;
+    }
+    #rule-blaster {
+        float: left;
+    }
+    #rule-img-wrap {
+        margin: auto;
+        overflow: hidden;
+    }
+    #rule-droid img {
+        width: 100%;
+        padding-left: 10%;
+}
+    #rule-blaster img {
+        width: 100%;
+}
+    footer {
+        clear: both;
     }
 }
