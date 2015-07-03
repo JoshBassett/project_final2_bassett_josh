@@ -73,11 +73,15 @@ nav a:hover, nav .current_page_item a {
 #content {
     text-align: center;
 }
+#content h2 {
+    margin-top: 0%;
+}
 #music img {
     margin: auto;
     display: block;
     width: 100%;
     box-shadow: 1px 2px 5px #3d3231;
+    margin-top: 4%;
 }
 #music {
     width: 80%;
@@ -153,6 +157,13 @@ footer p {
     position: absolute;
     width: 1px;
 }
+#schedule {
+
+}
+.band {
+    font-weight: 600;
+    font-size: larger;
+}
 
 /* Media Queries */
 @media (min-width: 512px) {
@@ -209,25 +220,61 @@ footer p {
     #history {
         background: none;
     }
-     #bar-menu {
-        width:38%;
-        float: left;
-        margin-left:10%;
+    #bar-menu {
+        width:33%;
+        margin-top: auto;
+        margin-left:2%;
+    }
+    #bar-menu h2 {
+        margin-top: 11%;
     }
     #music {
-        width:32%;
-        float:left;
+        width:60%;
+        float:right;
         margin-left:4%;
         margin-top:4%;
         background-color:#3D3231;
     }
     #music img {
-        width:80%;
+        width: 50%;
+        -ms-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+        float: left;
+        margin-left: 8%;
+        margin-bottom: 5%;
+        margin-top: -3%;
     }
     .live {
-        color:#E5B25D;
+        color: #3D3231;
     }
-        #rule-img-wrap {
+    .band {
+        color: #B57632;
+    }
+    #live-span {
+        color: #E5B25B;
+        float: right;
+        font-size: 300%;
+        font-stretch: wider;
+        letter-spacing: 2px;
+        padding-top: 18%;
+        padding-right: 5%;
+        -ms-transform: rotate(6deg);
+        -webkit-transform: rotate(6deg);
+        transform: rotate(6);
+    }
+    #schedule {
+        color: #E3E5D7;
+        font-family: seedy-motel;
+        font-size: 250%;
+        width: 33%;
+        text-align: left;
+        float: right;
+        text-shadow: 2px 2px #b57632;
+        margin-right: 5%;
+        margin-top: initial;
+}
+    #rule-img-wrap {
         /* padding-left: 20%; */
     }
 }
