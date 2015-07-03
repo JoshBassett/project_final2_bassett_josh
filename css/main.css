@@ -34,7 +34,9 @@ a {
 }
 header {
     background-color: #264653;
-    padding-bottom: 8%;
+}
+#logo {
+    overflow: hidden;
 }
 #logo img{
     width:80%;
@@ -49,7 +51,6 @@ nav ul {
 nav li {
     width: 50%;
     margin: auto;
-    box-shadow: 1px 2px 5px #3d3231;
 }
 nav a {
     display: block;
@@ -64,7 +65,7 @@ nav a {
 nav a:hover, nav .current_page_item a {
     text-decoration: underline;
     text-shadow: 0 0 0.2em #B57632, 0 0 0.2em #B57632,
-        0 0 0.2em #B57632}
+        0 0 0.2em #B57632;
 }
 #content {
     text-align: center;
@@ -166,48 +167,21 @@ footer p {
         clear:both;
     }
 }
-/* Media Queries */
-@media (min-width: 512px) {
-    #logo img{
-        width:50%;
-    }
-}
-@media (min-width: 576px) {
-    #bar-menu {
-        width:38%;
-        float: left;
-        margin-left:10%;
-    }
-    #music {
-        width:38%;
-        float:left;
-        margin-left:4%;
-        margin-top:4%
-    }
-    #rules {
-        clear:both;
-    }
-}
 @media (min-width: 882px) {
     #logo img{
-        float:left;
-        width:25%;
-        max-width:350px;
-        padding-left:10%;
+        max-width: 350px;
+        padding-left: 10%;
+        margin: inherit;
     }
     nav{
-        padding-top: 1%;
-        padding-bottom:2%;
+        padding-bottom:1%;
     }
     nav ul {
-        float:right;
         display:inline;
-        padding-right:2%
+        padding-left:30%
     }
     nav li, nav a {
         display:inline;
-        box-shadow: none;
-        padding-left:1%;
     }
     #content {
         clear:both;
@@ -242,7 +216,7 @@ footer p {
     }
 }
 @media (min-width: 1200px) {
-    #content, #rules{
+    #content, #rules, #logo {
         max-width:960px;
     }
 }
